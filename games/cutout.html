@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Cutout | EldrEnSvell</title>
+    <link href="../images/EES-Logo.png" rel="shortcut icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="../css/games.css">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <header class="portfolio-nav">
+        <a href="../portfolio.html" class="wordmark" aria-label="Frenox portfolio home">
+                <span class="wordmark-mark">F</span><span>FRENOX<span class="wordmark-dot">.</span></span>
+            </a>
+        <nav aria-label="Portfolio navigation"><a href="../portfolio.html#work">Projects</a><a href="../portfolio.html#approach">About me</a><a href="../portfolio.html#contact">Contact</a></nav>
+        <a class="nav-status" target="_blank" href="https://www.linkedin.com/in/maxime-huet-fren/"><span></span> Open to opportunities</a>
+    </header>
+    <!-- Navbar End -->
+    <main>
+        <div class="game-single-banner">
+            <img src="../images/games/cutout-banner.png" alt="Cutout Banner">
+        </div>
+        <section class="game-single-section">
+            <h1>Cutout</h1>
+            <p class="game-single-lead">A Gamejam puzzle game</p>
+            <div class="game-single-overview">
+                <h2>Game Overview</h2>
+                <p><strong>Cutout</strong> is a 3D puzzle game made for the Game Jam : GMTK Gamejam 2024. 
+                </br></br>Play as a small <strong>cardboard character</strong> trying to exit their owner's bedroom to find them.
+                </br>Find <strong>cardboard shards</strong> scattered all around the map to grow taller and taller and access the door.</p>
+                <ul>
+                    <li>Explore a gigantic room full of puzzles and traps</li>
+                    <li>Find a way to get all the shards to become tall enough to leave the room</li>
+                    <li>Uncover the presence that bends the rules of the room — a being hidden in plain sight, holding a piece you might need</li>
+                </ul>
+            </div>
+            <div class="game-single-screenshot" data-layout="mosaic-right">
+                <img src="../images/games/cutout-0.jpg" alt="Cutout 0">
+                <img src="../images/games/cutout-1.png" alt="Cutout 1">
+                <img src="../images/games/cutout-2.png" alt="Cutout 2">
+            </div>
+
+            <section class="game-single-reflection">
+                <h2>My role and reflection</h2>
+                <div class="reflection-grid">
+                    <div>
+                        <h3>What I did</h3>
+                        <p>I developed the many of the puzzle mechanics, the shard progression system, and modeled most of the assets of the game.</p>
+                        <ul>
+                            <li>I developed mechanics for the movement-related puzzles (cat, mouse, roomba), designed to pressure the player compared to classic reflection puzzles</li>
+                            <li>I implemented the shard progression system, making it modify the size of the player while allowing them to change it freely to go back to puzzles they had missed</li>
+                            <li>I created most of the 3D assets of the game using Blender, trying to keep track with the (sometimes extravaguant) ideas of the team with the little knowledge I had</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Challenges and lessons</h3>
+                        <p>The central challenge was making height feel meaningful to both the puzzles and the story, which was done my making the majority of the puzzles only accessible at certain sizes, forcing the player to pause and reflect on how to solve it. </p>
+                        <br><p>During this Game Jam, I learned to link progression directly to the environment so each new shard changes how the player reads the room.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Images -->
+            <!-- <div class="game-single-screenshot" data-layout="single">
+                <img src="path/to/your/image.jpg" alt="Description">
+            </div>
+            <div class="game-single-screenshot" data-layout="mosaic">
+                <img src="path/to/your/main-image.jpg" alt="Main screenshot">
+                <img src="path/to/your/second-image.jpg" alt="Second screenshot">
+                <img src="path/to/your/third-image.jpg" alt="Third screenshot">
+            </div> -->
+
+            <div class="game-single-link">
+                <p>The game is available for free on <strong>Itch.io</strong></p>
+                <a href="https://cerrad-las-sopas.itch.io/cutout" target="_blank" class="game-single-link-btn">Download on Itch.io</a>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <span class="modal-close">&times;</span>
+        <img id="modalImage" class="modal-content" alt="Modal Image">
+    </div>
+    
+    <footer>
+        &copy; 2025 EldrEnSvell. All rights reserved.
+    </footer>
+    <script src="../js/burger-menu.js"></script>
+    <script src="../js/image-modal.js"></script>
+</body>
+</html>

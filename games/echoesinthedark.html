@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Echoes in the Dark | EldrEnSvell</title>
+    <link href="../images/EES-Logo.png" rel="shortcut icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="../css/games.css">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <header class="portfolio-nav">
+        <a class="wordmark" href="../portfolio.html" aria-label="Frenox portfolio home">
+            <span class="wordmark-mark">F</span>
+            <span>FRENOX<span class="wordmark-dot">.</span></span>
+        </a>
+        <nav aria-label="Portfolio navigation">
+            <a href="../portfolio.html#work">Projects</a>
+            <a href="../portfolio.html#approach">About me</a>
+            <a href="../portfolio.html#contact">Contact</a>
+        </nav>
+        <a class="nav-status" target="_blank" href="https://www.linkedin.com/in/maxime-huet-fren/"><span></span> Open to opportunities</a>
+    </header>
+    <!-- Navbar End -->
+    <main>
+        <div class="game-single-banner">
+            <img src="../images/games/echoesinthedark-banner.png" alt="Echoes in the Dark Banner">
+        </div>
+        <section class="game-single-section">
+            <h1>Echoes in the Dark</h1>
+            <p class="game-single-lead">A liminal, exploration-horror game where the reality you don't see can shift</p>
+            <div class="game-single-overview">
+                <h2>Game Overview</h2>
+                <p><strong>Echoes in the Dark</strong> is a liminal exploration-horror game where you have to explore a version of your house that seems... off. 
+                </br></br>As reality shifts around you, solve puzzles and avoid any potential threats to get out alive.</p>
+                <ul>
+                    <li>Uncover how the reality around you behaves and shifts when your attention decrease</li>
+                    <li>Explore various areas with growing threats</li>
+                    <li>Find the exit to get back to reality alive</li>
+                </ul>
+            </div>
+            <div class="game-single-screenshot" data-layout="mosaic-4">
+                <img src="../images/games/echoesinthedark-0.png" alt="EchoesInTheDark 0">
+                <img src="../images/games/echoesinthedark-1.png" alt="EchoesInTheDark 1">
+                <img src="../images/games/echoesinthedark-2.png" alt="EchoesInTheDark 2">
+                <img src="../images/games/echoesinthedark-3.png" alt="EchoesInTheDark 3">
+            </div>
+
+            <section class="game-single-reflection">
+                <h2>My role and reflection</h2>
+                <div class="reflection-grid">
+                    <div>
+                        <h3>What I did</h3>
+                        <p>I shaped the game's concept, exploration loop, puzzles, and shifting-reality mechanic.</p>
+                        <ul>
+                            <li>I developed a seed-based maze generation system that uses preset rooms to create a random experience for the player on each playthrough and reinforce the feeling of wrongness of the place</li>
+                            <li>I implemented a shifting-reality mechanic that can change objects or textures when the player is not looking to disorient the them and make them question their surroundings</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Challenges and lessons</h3>
+                        <p>On the conception side, the hardest part was to find a way to create uncertainty without making the player feel lost. This led to the idea of only changing some objects when the reality shift rather than the whole room.</p>
+                        <p>On the technical side, creating a fully random maze-generation system that would remain coherent as a whole and contain all the required rooms for progression was the biggest challenge.</p>
+                        <br><p>This project taught me how to use details and subtle chabges to create an uneasy atmosphere while keeping the player oriented and grounded in the game.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Images -->
+            <!-- <div class="game-single-screenshot" data-layout="single">
+                <img src="path/to/your/image.jpg" alt="Description">
+            </div>
+            <div class="game-single-screenshot" data-layout="mosaic">
+                <img src="path/to/your/main-image.jpg" alt="Main screenshot">
+                <img src="path/to/your/second-image.jpg" alt="Second screenshot">
+                <img src="path/to/your/third-image.jpg" alt="Third screenshot">
+            </div> -->
+
+            <div class="game-single-link">
+                <p>The game is currently in active development.</p>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <span class="modal-close">&times;</span>
+        <img id="modalImage" class="modal-content" alt="Modal Image">
+    </div>
+    
+    <footer>
+        &copy; 2025 EldrEnSvell. All rights reserved.
+    </footer>
+    <script src="../js/burger-menu.js"></script>
+    <script src="../js/image-modal.js"></script>
+</body>
+</html>

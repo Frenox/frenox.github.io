@@ -1,0 +1,37 @@
+[
+  {
+    "image": "images/Caroussel/EchoesInTheDark.jpg",
+    "alt": "EchoesInTheDark News",
+    "title": "Something is approaching in the dark",
+    "desc": "Discover <strong>Echoes in the Dark</strong>, our in-development liminal horror game!",
+    "link": "games/echoesinthedark.html"
+  },
+  {
+    "image": "images/Caroussel/TROH.jpg",
+    "alt": "TROH News",
+    "title": "Hraesvelg is lurking...",
+    "desc": "Discover <strong>The Rise of Hraesvelg</strong>, our planned Open world game!",
+    "link": "games/troh.html"
+  },
+  {
+    "image": "images/Caroussel/TNTBW.jpg",
+    "alt": "Try not to be weird News",
+    "title": "Try not to be weird Released",
+    "desc": "<strong>Try not to be weird</strong>, a dark \"puzzle\" game made for the Global Game Jam 2026, is now out on Itch.io!",
+    "link": "games/tntbw.html"
+  },
+  {
+    "image": "images/Caroussel/Cutout.jpg",
+    "alt": "Cutout News",
+    "title": "Cutout Released",
+    "desc": "Our new puzzle game <strong>Cutout</strong> is now available! You can try it out on Itch.io!",
+    "link": "games/cutout.html"
+  },
+  {
+    "image": "images/Caroussel/ScrewUp.jpg",
+    "alt": "ScrewUp News",
+    "title": "ScrewUp! Released",
+    "desc": "<strong>ScrewUp!</strong>, a GameJam vertical platformer, is now out on Itch.io!",
+    "link": "games/screwup.html"
+  }
+]
