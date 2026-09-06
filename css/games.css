@@ -180,11 +180,32 @@
 }
 .game-single-system-image {
     margin: 0;
+    width: 100%;
+    max-width: 640px;
+    justify-self: center;
 }
-.game-single-system-image img {
+.game-single-system-image img,
+.game-single-system-image video {
     max-width: 100%;
     width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
     border: 1px solid rgba(255, 111, 97, 0.35);
+    display: block;
+}
+.game-single-system-image .system-video {
+    background: #120d0d;
+    object-fit: cover;
+    cursor: default;
+}
+.game-single-system-image .system-video::-webkit-media-controls,
+.game-single-system-image .system-video::-webkit-media-controls-panel,
+.game-single-system-image .system-video::-webkit-media-controls-enclosure,
+.game-single-system-image .system-video::-webkit-media-controls-play-button,
+.game-single-system-image .system-video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+    -webkit-appearance: none;
 }
 .game-single-system-image p {
     font-size: 0.78rem;
