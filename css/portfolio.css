@@ -87,8 +87,8 @@ em { color: var(--accent); font-style: normal; }
     .project-grid { gap: 46px; grid-template-columns: 1fr; }
     .project-card-featured, .project-card-wide { grid-column: auto; }
     .project-card-featured .project-image img, .project-image img { aspect-ratio: 1.35 / 1; }
-    .approach-layout { display: block; padding-bottom: 90px; padding-top: 90px; }
-    .approach-layout > div:first-child { margin-bottom: 65px; }
+    .about-layout { display: block; padding-bottom: 90px; padding-top: 90px; }
+    .about-layout > div:first-child { margin-bottom: 65px; }
     .contact-section { min-height: 530px; padding-bottom: 95px; padding-top: 100px; }
     .contact-section h2 { font-size: clamp(4rem, 18vw, 7rem); }
     .contact-footer { align-items: flex-start; bottom: 30px; flex-direction: column; gap: 9px; }
