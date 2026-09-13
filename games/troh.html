@@ -48,9 +48,9 @@
             <section class="game-single-system">
                 <div class="game-single-system-copy">
                     <h2>Quest System</h2>
-                    <p>The Quest System is an event-driven manager that handles a graph of Quest Data Assets composed of a graph of Step Data Assets.</p>
+                    <p>The Quest System is an event-driven manager that handles a graph of Quest Data Assets composed of a set of Step Data Assets.</p>
                     <p>The system subscribes to the events linked to the active quest steps to be notified whenever the player makes progress. 
-                        <br>When a step gets completed, the system checks if there are following steps and activates them if so. Otherwise, the quest is marked as completed and the next ones are unlocked.</p>
+                        <br>When a step gets completed, the system checks if all the current steps are also completed and, if so, triggers the continuation of the quest by activating the following steps if there are any or completing the quest otherwise.</p>
                 </div>
                 <div class="game-single-system-image game-single-screenshot" data-layout="single">
                     <video class="system-video" autoplay muted loop playsinline aria-label="TROH Quest System gameplay">
