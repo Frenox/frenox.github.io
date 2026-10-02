@@ -36,6 +36,9 @@ em { color: var(--accent); font-style: normal; }
 .button { display: inline-flex; font-size: 0.75rem; gap: 20px; padding: 15px 18px; text-decoration: none; }
 .button-primary { background: var(--red); color: #fff; }
 .button-primary:hover { background: #a61b2b; }
+.button-secondary { background: transparent; border: 1px solid var(--line); color: var(--ink); }
+.button-secondary:hover { border-color: var(--accent); color: var(--accent); }
+.contact-actions { display: flex; flex-wrap: wrap; gap: 18px; }
 .text-link { border-bottom: 1px solid var(--accent); font-size: 0.75rem; padding-bottom: 4px; text-decoration: none; }
 .hero-art { position: relative; }
 .hero-art::before { border: 1px solid var(--accent); content: ''; height: 100%; left: -13px; position: absolute; top: 13px; width: 100%; z-index: -1; }
